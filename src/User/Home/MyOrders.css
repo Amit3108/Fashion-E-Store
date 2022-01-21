@@ -1,0 +1,20 @@
+.ordergroup{
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width:90%;
+    max-width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 4vh;
+    list-style: none;
+    padding: 20px;
+}
+#myorders{
+    padding-top: 8vh;
+}
+#rightqp{
+    float: right;
+    margin-right: 20px;
+}

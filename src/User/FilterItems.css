@@ -1,0 +1,37 @@
+.filteritems{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 5%;
+    
+}
+#slider{
+    width: 100%;
+}
+.filteritems h2{   
+    padding: 5%;
+}
+.filteritems h3{   
+    padding-left: 10%;
+}
+.filteritems li{
+    list-style: none;
+}
+.filteritems a{
+    text-decoration: none;
+    color: white;
+}
+.filteritems a:hover{
+    text-decoration:underline;
+    color: white;
+}
+.showcolor,.showsc{
+   display:block;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.hidesc, .hidecolor{
+    display: none;
+}
+.fa-plus-circle:hover,.fa-plus-circle:hover{
+    cursor: pointer;
+}

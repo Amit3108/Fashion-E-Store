@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+.login {
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../../imgs/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.log {
+  display: inline-block;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.25);
+  width: 90vw;
+  max-width: 500px;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.logform {
+  font-size: 16px;
+  font-family: Arial;
+}
+
+.regbtn {
+  color: white;
+  text-decoration: none;
+}
+.img1 {
+  border-radius: 10px;
+  height: 50vh;
+  max-height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.loginput {
+  font-size: 16px;
+  height: 10vh;
+  max-height: 40px;
+  width: 75vw;
+  max-width: 440px;
+  border-radius: 20px;
+  padding-left: 10px;
+  margin: 10px;
+  border: none;
+}
+input:hover{
+  border:1px solid grey;
+}
+input:focus{
+  outline:none;
+}
+.logbutton {
+  font-size: 18px;
+  height: 10vh;
+  max-height: 40px;
+  width: 35vw;
+  max-width: 150px;
+  border-radius: 20px;
+  margin: 5px;
+  background-color: black;
+  color: white;
+  border:none;
+}
+.logbutton:hover {
+  background: linear-gradient(to right,#d4af37,#f9f095,#d4af37);
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+.pwlabel{
+  color: black;
+  font-size: 16px;
+}
+.pwlabel:hover{
+  cursor: pointer;
+  color: white;
+}
+.fa-eye-slash,
+.fa-eye {
+  font-size: 18px;
+  cursor: pointer;
+  margin-left :-50px;
+}

@@ -1,0 +1,128 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #item-details{
+    color: rgb(116, 114, 114);
+    font-size: 18px;
+  }
+  .size{
+    border: 1px solid black;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    border-radius: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    left: 0;
+    text-align: center;
+    padding-top: 2px;
+    margin-top: 4px;
+  }
+  .size:hover{
+    background: linear-gradient(to bottom,#d4af37,#f9f095,#d4af37);
+    color: black;
+  }
+  .detcontent label
+  {
+    position:relative;
+    padding-left: 40px;
+  }
+  .detcontent label input {
+    display: none;
+  }
+  input:checked+span {
+    background: linear-gradient(to bottom,#d4af37,#f9f095,#d4af37);
+    color: black;
+  }
+ .detpage{
+    display: block;
+    background-color: white;
+    padding-top: 10vh;
+    padding-bottom: 4.5vh;
+    display: flex;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.detimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-height: 34vh;
+    width: auto;
+    max-width: 98%;
+}
+.detcar{
+    margin-top: 2vh;
+    margin-left: 2%;
+    width:25%;
+    height: 32vh;
+}
+.detcontent{
+    margin-top: 1vh;
+    padding-top: 3vh;
+    margin-left: 4%;
+    margin-right: 2%;
+}
+.atcbtn {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  height: 10vh;
+  max-height: 40px;
+  width: 35vw;
+  max-width: 200px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  border:none;
+}
+.atcbtn:hover {
+  background: linear-gradient(
+    to right,
+    #d4af37,
+    #f9f095,
+    #d4af37,
+    #f9f095,
+    #d4af37
+  );
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+@media screen and (max-width:780px) {
+  .detpage{
+    display: block;
+    background-color: white;
+    padding-top: 10vh;
+    padding-bottom: 2vh;
+    display: flex;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .detimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-height: 40vh;
+    width: auto;
+    max-width: 98%;
+}
+.detcar{
+    margin-top: 2vh;
+    margin-left: 2%;
+    width:100%;
+    height: 40vh;
+}
+.detcontent{
+    margin-top: 1vh;
+    padding-top: 3vh;
+    margin-left: 4%;
+    margin-right: 2%;
+    font-size: 14px;
+}
+}

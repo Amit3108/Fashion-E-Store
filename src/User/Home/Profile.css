@@ -1,0 +1,18 @@
+.editprofile{
+    max-width: 600px;
+}
+.profilelabel{
+    margin:10px;
+}
+.profileinput{
+    width: 40%;
+}
+.profileinput1{
+    width: 82%;
+}
+.profileinput2{
+    width: 60%;
+}
+.editprofile input{
+    background-color: white;
+}
